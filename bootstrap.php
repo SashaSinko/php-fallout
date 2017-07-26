@@ -6,13 +6,22 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	 <style>
+	body{ background: url(images/celtic1.png); }
+    h3{
+    background-image: linear-gradient(to top, rgba(30,87,153,0), rgba(30,87,153,0.8), rgba(30,87,153,1),
+                      rgba(30,87,153,1), rgba(41,137,216,1), rgba(30,87,153,1), rgba(30,87,153,1),
+                      rgba(30,87,153,0.8),rgba(30,87,153,0));
+    color: #fff; padding: 10px;
+   }
+  </style>
 </head>
 <body>
 <div class="row">
   <div class="col-md-2"></div>
   <div class="col-md-8">
 		<form action="results.html" method="post">
-			<h3>Fallout character creation form</h3>
+			<h3 class="text-center">Fallout character creation form</h3>
 			<label>Are you a boy or a girl?</label><br>
 				<input type=radio name=sex value="Female" checked> Girl<br>
 				<input type=radio name=sex value="Male"> Boy<br>
